@@ -1,0 +1,1217 @@
+{
+  "cropHintsAnnotation": {
+    "cropHints": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 45
+            },
+            {
+              "x": 285
+            },
+            {
+              "x": 285,
+              "y": 299
+            },
+            {
+              "x": 45,
+              "y": 299
+            }
+          ]
+        },
+        "confidence": 0.29296872,
+        "importanceFraction": 1
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {},
+            {
+              "x": 300
+            },
+            {
+              "x": 300,
+              "y": 299
+            },
+            {
+              "y": 299
+            }
+          ]
+        },
+        "confidence": 0.234375,
+        "importanceFraction": 1
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {},
+            {
+              "x": 360
+            },
+            {
+              "x": 360,
+              "y": 299
+            },
+            {
+              "y": 299
+            }
+          ]
+        },
+        "confidence": 0.1953125,
+        "importanceFraction": 1
+      }
+    ]
+  },
+  "imagePropertiesAnnotation": {
+    "cropHints": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 45
+            },
+            {
+              "x": 285
+            },
+            {
+              "x": 285,
+              "y": 299
+            },
+            {
+              "x": 45,
+              "y": 299
+            }
+          ]
+        },
+        "confidence": 0.29296872,
+        "importanceFraction": 1
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {},
+            {
+              "x": 300
+            },
+            {
+              "x": 300,
+              "y": 299
+            },
+            {
+              "y": 299
+            }
+          ]
+        },
+        "confidence": 0.234375,
+        "importanceFraction": 1
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {},
+            {
+              "x": 360
+            },
+            {
+              "x": 360,
+              "y": 299
+            },
+            {
+              "y": 299
+            }
+          ]
+        },
+        "confidence": 0.1953125,
+        "importanceFraction": 1
+      }
+    ],
+    "dominantColors": {
+      "colors": [
+        {
+          "color": {
+            "blue": 207,
+            "green": 199,
+            "red": 191
+          },
+          "hex": "BFC7CF",
+          "percent": 18.71579999625234,
+          "percentRounded": 19,
+          "pixelFraction": 0.19073646,
+          "rgb": "191, 199,\n 207",
+          "score": 0.16693924
+        },
+        {
+          "color": {
+            "blue": 52,
+            "green": 49,
+            "red": 47
+          },
+          "hex": "2F3134",
+          "percent": 18.150834531948593,
+          "percentRounded": 18,
+          "pixelFraction": 0.04122279,
+          "rgb": "47, 49,\n 52",
+          "score": 0.16189992
+        },
+        {
+          "color": {
+            "blue": 29,
+            "green": 26,
+            "red": 22
+          },
+          "hex": "161A1D",
+          "percent": 15.182075169591606,
+          "percentRounded": 15,
+          "pixelFraction": 0.017600741,
+          "rgb": "22, 26,\n 29",
+          "score": 0.13541949
+        },
+        {
+          "color": {
+            "blue": 214,
+            "green": 196,
+            "red": 182
+          },
+          "hex": "B6C4D6",
+          "percent": 10.917364079661883,
+          "percentRounded": 11,
+          "pixelFraction": 0.1509032,
+          "rgb": "182, 196,\n 214",
+          "score": 0.097379565
+        },
+        {
+          "color": {
+            "blue": 67,
+            "green": 53,
+            "red": 40
+          },
+          "hex": "283543",
+          "percent": 7.98306833710961,
+          "percentRounded": 8,
+          "pixelFraction": 0.0086151,
+          "rgb": "40, 53,\n 67",
+          "score": 0.07120654
+        },
+        {
+          "color": {
+            "blue": 42,
+            "green": 27,
+            "red": 14
+          },
+          "hex": "0E1B2A",
+          "percent": 7.871746825944956,
+          "percentRounded": 8,
+          "pixelFraction": 0.0043538674,
+          "rgb": "14, 27,\n 42",
+          "score": 0.070213586
+        },
+        {
+          "color": {
+            "blue": 87,
+            "green": 83,
+            "red": 82
+          },
+          "hex": "525357",
+          "percent": 6.370243130021771,
+          "percentRounded": 6,
+          "pixelFraction": 0.07605373,
+          "rgb": "82, 83,\n 87",
+          "score": 0.05682063
+        },
+        {
+          "color": {
+            "blue": 119,
+            "green": 116,
+            "red": 115
+          },
+          "hex": "737477",
+          "percent": 5.570313034648987,
+          "percentRounded": 6,
+          "pixelFraction": 0.11116257,
+          "rgb": "115, 116,\n 119",
+          "score": 0.049685497
+        },
+        {
+          "color": {
+            "blue": 233,
+            "green": 228,
+            "red": 223
+          },
+          "hex": "DFE4E9",
+          "percent": 5.372210647823829,
+          "percentRounded": 5,
+          "pixelFraction": 0.059286706,
+          "rgb": "223, 228,\n 233",
+          "score": 0.047918484
+        },
+        {
+          "color": {
+            "blue": 159,
+            "green": 155,
+            "red": 153
+          },
+          "hex": "999B9F",
+          "percent": 3.8663442469964266,
+          "percentRounded": 4,
+          "pixelFraction": 0.14969893,
+          "rgb": "153, 155,\n 159",
+          "score": 0.034486614
+        }
+      ]
+    }
+  },
+  "labelAnnotations": [
+    {
+      "description": "Mammal",
+      "mid": "/m/04rky",
+      "score": 0.9890478,
+      "topicality": 0.9890478
+    },
+    {
+      "description": "Dog",
+      "mid": "/m/0bt9lr",
+      "score": 0.9876207,
+      "topicality": 0.9876207
+    },
+    {
+      "description": "Siberian husky",
+      "mid": "/m/071jj",
+      "score": 0.98722947,
+      "topicality": 0.98722947
+    },
+    {
+      "description": "Vertebrate",
+      "mid": "/m/09686",
+      "score": 0.9851104,
+      "topicality": 0.9851104
+    },
+    {
+      "description": "Canidae",
+      "mid": "/m/01z5f",
+      "score": 0.97653943,
+      "topicality": 0.97653943
+    },
+    {
+      "description": "Alaskan malamute",
+      "mid": "/m/01p3d7",
+      "score": 0.9593201,
+      "topicality": 0.9593201
+    },
+    {
+      "description": "Sakhalin husky",
+      "mid": "/m/0btwlv",
+      "score": 0.955628,
+      "topicality": 0.955628
+    },
+    {
+      "description": "Sled dog",
+      "mid": "/m/01p01n",
+      "score": 0.9420698,
+      "topicality": 0.9420698
+    },
+    {
+      "description": "Carnivore",
+      "mid": "/m/01lrl",
+      "score": 0.9342105,
+      "topicality": 0.9342105
+    },
+    {
+      "description": "Canadian eskimo dog",
+      "mid": "/m/057_4d",
+      "score": 0.9277477,
+      "topicality": 0.9277477
+    },
+    {
+      "description": "Native american indian dog",
+      "mid": "/m/026v2d7",
+      "score": 0.9150383,
+      "topicality": 0.9150383
+    },
+    {
+      "description": "East siberian laika",
+      "mid": "/m/03yff_n",
+      "score": 0.8960978,
+      "topicality": 0.8960978
+    },
+    {
+      "description": "Dog breed",
+      "mid": "/m/0kpmf",
+      "score": 0.88890284,
+      "topicality": 0.88890284
+    },
+    {
+      "description": "West siberian laika",
+      "mid": "/m/0cshcm",
+      "score": 0.88562787,
+      "topicality": 0.88562787
+    },
+    {
+      "description": "Northern inuit dog",
+      "mid": "/m/02qr3y_",
+      "score": 0.87766033,
+      "topicality": 0.87766033
+    },
+    {
+      "description": "Seppala siberian sleddog",
+      "mid": "/m/01p08w",
+      "score": 0.8681617,
+      "topicality": 0.8681617
+    },
+    {
+      "description": "Snow",
+      "mid": "/m/06_dn",
+      "score": 0.8678074,
+      "topicality": 0.8678074
+    },
+    {
+      "description": "Wolfdog",
+      "mid": "/m/02jj3m",
+      "score": 0.84729224,
+      "topicality": 0.84729224
+    },
+    {
+      "description": "Tamaskan dog",
+      "mid": "/m/03gt33k",
+      "score": 0.82116354,
+      "topicality": 0.82116354
+    },
+    {
+      "description": "Winter",
+      "mid": "/m/086mh",
+      "score": 0.8042156,
+      "topicality": 0.8042156
+    },
+    {
+      "description": "Greenland dog",
+      "mid": "/m/0355ff",
+      "score": 0.7959685,
+      "topicality": 0.7959685
+    },
+    {
+      "description": "Canis",
+      "mid": "/m/0243pg",
+      "score": 0.733494,
+      "topicality": 0.733494
+    },
+    {
+      "description": "Saarloos wolfdog",
+      "mid": "/m/028y5g",
+      "score": 0.7231058,
+      "topicality": 0.7231058
+    },
+    {
+      "description": "canis lupus tundrarum",
+      "mid": "/m/0czbdd9",
+      "score": 0.70814306,
+      "topicality": 0.70814306
+    },
+    {
+      "description": "Utonagan",
+      "mid": "/m/054kbj",
+      "score": 0.70765674,
+      "topicality": 0.70765674
+    },
+    {
+      "description": "Alaskan klee kai",
+      "mid": "/m/08pmt0",
+      "score": 0.6806581,
+      "topicality": 0.6806581
+    },
+    {
+      "description": "Rare breed (dog)",
+      "mid": "/m/0415w9g",
+      "score": 0.642546,
+      "topicality": 0.642546
+    },
+    {
+      "description": "Working dog",
+      "mid": "/m/02gxp7",
+      "score": 0.6312374,
+      "topicality": 0.6312374
+    },
+    {
+      "description": "Wolf",
+      "mid": "/m/084sq",
+      "score": 0.6203258,
+      "topicality": 0.6203258
+    },
+    {
+      "description": "Sporting Group",
+      "mid": "/m/0265rtm",
+      "score": 0.6191944,
+      "topicality": 0.6191944
+    },
+    {
+      "description": "Jämthund",
+      "mid": "/m/01x5q1",
+      "score": 0.6073359,
+      "topicality": 0.6073359
+    },
+    {
+      "description": "Czechoslovakian wolfdog",
+      "mid": "/m/0b3s8y",
+      "score": 0.59051406,
+      "topicality": 0.59051406
+    },
+    {
+      "description": "Wildlife",
+      "mid": "/m/01280g",
+      "score": 0.5761504,
+      "topicality": 0.5761504
+    },
+    {
+      "description": "Miniature siberian husky",
+      "mid": "/m/08z8t9",
+      "score": 0.56539625,
+      "topicality": 0.56539625
+    }
+  ],
+  "localizedObjectAnnotations": [
+    {
+      "boundingPoly": {
+        "normalizedVertices": [
+          {
+            "x": 0.07891419,
+            "y": 0.17557304
+          },
+          {
+            "x": 0.4938809,
+            "y": 0.17557304
+          },
+          {
+            "x": 0.4938809,
+            "y": 0.9973958
+          },
+          {
+            "x": 0.07891419,
+            "y": 0.9973958
+          }
+        ]
+      },
+      "mid": "/m/0bt9lr",
+      "name": "Dog",
+      "score": 0.9550826
+    }
+  ],
+  "safeSearchAnnotation": {
+    "adult": "VERY_UNLIKELY",
+    "medical": "VERY_UNLIKELY",
+    "racy": "VERY_UNLIKELY",
+    "spoof": "UNLIKELY",
+    "violence": "VERY_UNLIKELY"
+  },
+  "webDetection": {
+    "bestGuessLabels": [
+      {
+        "label": "sibirsky husky",
+        "languageCode": "en"
+      }
+    ],
+    "fullMatchingImages": [
+      {
+        "url": "https://hondenhalsband.nl/wp-content/uploads/2018/05/shutterstock_765600409.jpg"
+      },
+      {
+        "url": "https://petcarementor.com/wp-content/uploads/2019/07/Husky-21.jpg"
+      },
+      {
+        "url": "https://cloudia.cms.radioservices.sk/r1200x/62aa0738-b9c5-4a22-9ae0-8e020eb9782b"
+      },
+      {
+        "url": "https://media.istockphoto.com/photos/husky-dog-lying-in-the-picture-id915124768"
+      },
+      {
+        "url": "http://www.arizonapetvet.com/blog/wp-content/uploads/2019/05/shutterstock_765600409.jpg"
+      },
+      {
+        "url": "https://canineweekly.com/wp-content/uploads/2019/06/why-do-huskies-have-blue-eyes.jpg"
+      },
+      {
+        "url": "https://fischer-reisen.at/database/2019060215564512719.jpg"
+      },
+      {
+        "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1928910717191280"
+      },
+      {
+        "url": "https://thumbs.dreamstime.com/b/heiserer-hund-der-liegt-108250695.jpg"
+      },
+      {
+        "url": "https://cloudia.cms.radioservices.sk/r630x/62aa0738-b9c5-4a22-9ae0-8e020eb9782b"
+      },
+      {
+        "url": "https://media.istockphoto.com/photos/husky-dog-lying-in-the-picture-id915124768?k=6&m=915124768&s=612x612&w=0&h=BtVTxp-q5zTLz27AO5A9miwipfcxBca1BvbZAt6NC9I="
+      },
+      {
+        "url": "https://toptipsforher.com/wp-content/uploads/2019/08/How-Much-Do-Huskies-Cost.jpg"
+      },
+      {
+        "url": "https://marketplace.canva.com/MADaA85seh0/1/thumbnail_large-1/canva-husky-dog-lying-in-the-MADaA85seh0.jpg"
+      },
+      {
+        "url": "https://media.istockphoto.com/photos/husky-dog-lying-in-the-picture-id915124768?k=6&m=915124768&s=170667a&w=0&h=arWgF0cCzTY_pSzuUbyVu7PC5OLKPksjtfpIjYhdPuI="
+      },
+      {
+        "url": "https://www.sun-gazing.com/wp-content/uploads/2019/09/shutterstock_765600409.jpg"
+      },
+      {
+        "url": "https://1.bp.blogspot.com/-k3Ybbi9nWBw/XSH3suT6-KI/AAAAAAAABos/E-HnEdbQYs4Ccfxulk6juLgjNJexrXXEwCLcBGAs/s1600/images.jpeg-7%2B%25286%2529.jpg"
+      },
+      {
+        "url": "http://www.shwemom.com/wp-content/uploads/shutterstock_765600409-300x200.jpg"
+      },
+      {
+        "url": "https://image.shutterstock.com/mosaic_250/183371750/765600409/stock-photo-husky-dog-lying-in-the-snow-black-and-white-siberian-husky-with-blue-eyes-on-a-walk-in-winter-park-765600409.jpg"
+      },
+      {
+        "url": "https://thumbs.dreamstime.com/t/husky-dog-lying-snow-black-white-siberian-husky-blue-eyes-walk-winter-park-husky-dog-lying-108250695.jpg"
+      },
+      {
+        "url": "https://media.istockphoto.com/photos/husky-dog-lying-in-the-picture-id915124768?b=1&k=6&m=915124768&s=170x170&h=rmOBsHr2-Xmks2iwjXFJRRSmMn4P7U6iNkR_WcAk8ss="
+      }
+    ],
+    "pagesWithMatchingImages": [
+      {
+        "pageTitle": "Alaskan <b>Husky</b> Images, Stock Photos &amp; Vectors | Shutterstock",
+        "partialMatchingImages": [
+          {
+            "url": "https://image.shutterstock.com/image-photo/husky-dog-lying-snow-black-260nw-765600409.jpg"
+          }
+        ],
+        "url": "https://www.shutterstock.com/search/alaskan+husky"
+      },
+      {
+        "pageTitle": "Imágenes, fotos de stock y vectores sobre Alaskan <b>Husky</b> ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://image.shutterstock.com/image-photo/husky-dog-lying-snow-black-260nw-765600409.jpg"
+          }
+        ],
+        "url": "https://www.shutterstock.com/es/search/alaskan+husky"
+      },
+      {
+        "pageTitle": "Fotos de alaskan <b>husky</b> - Shutterstock",
+        "partialMatchingImages": [
+          {
+            "url": "https://image.shutterstock.com/image-photo/husky-dog-lying-snow-black-260nw-765600409.jpg"
+          }
+        ],
+        "url": "https://www.shutterstock.com/es/search/alaskan+husky?image_type=photo"
+      },
+      {
+        "pageTitle": "Imágenes, fotos de stock y vectores sobre <b>Husky</b> Dogs Eyes ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://image.shutterstock.com/image-photo/husky-dog-lying-snow-black-260nw-765600409.jpg"
+          }
+        ],
+        "url": "https://www.shutterstock.com/es/search/husky+dogs+eyes"
+      },
+      {
+        "pageTitle": "Siberian <b>Husky</b>: Full Profile, History, and Care - The Spruce Pets",
+        "partialMatchingImages": [
+          {
+            "url": "https://www.thesprucepets.com/thmb/cXTNiSPDs0E21qvj_fO8l7-QVZo=/2667x2667/smart/filters:no_upscale()/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+          },
+          {
+            "url": "https://www.thesprucepets.com/thmb/yX_BHogB5rH2A3h7UOZXb21NrPQ=/4000x2250/smart/filters:no_upscale()/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+          },
+          {
+            "url": "https://www.thesprucepets.com/thmb/2K97c7-05caG1cASgKYAvlD1hV4=/4000x2667/filters:fill(auto,1)/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+          },
+          {
+            "url": "https://www.thesprucepets.com/thmb/U4PLoMc7D-zmXfLNOTL9ydIHato=/735x0/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+          }
+        ],
+        "url": "https://www.thesprucepets.com/siberian-husky-dog-breed-profile-1118000"
+      },
+      {
+        "pageTitle": "8 Amazing Facts About Siberian <b>Huskies</b> - The Spruce Pets",
+        "partialMatchingImages": [
+          {
+            "url": "https://www.thesprucepets.com/thmb/Fxw2qST5HCKMSoxbmcF2HjB7_eo=/400x300/filters:no_upscale():max_bytes(150000):strip_icc()/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+          }
+        ],
+        "url": "https://www.thesprucepets.com/pictures-of-siberian-huskies-4175107"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://marketplace.canva.com/MADaA85seh0/1/thumbnail_large-1/canva-husky-dog-lying-in-the-MADaA85seh0.jpg"
+          }
+        ],
+        "pageTitle": "Siberian <b>husky</b> - Free &amp; Premium Stock Photos - Canva",
+        "url": "https://www.canva.com/photos/search/siberian%20husky/?continuation=200&limit=100"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://marketplace.canva.com/MADaA85seh0/1/thumbnail_large-1/canva-husky-dog-lying-in-the-MADaA85seh0.jpg"
+          }
+        ],
+        "pageTitle": "<b>Husky</b> sledding - Photos by Canva",
+        "url": "https://www.canva.com/photos/MADaAK7r254-husky-sledding/"
+      },
+      {
+        "pageTitle": "<b>Husky</b> Images - Public Domain Pictures - Page 1",
+        "partialMatchingImages": [
+          {
+            "url": "https://thumb1.shutterstock.com/thumb_large/183371750/765600409/stock-photo-husky-dog-lying-in-the-snow-black-and-white-siberian-husky-with-blue-eyes-on-a-walk-in-winter-park-765600409.jpg"
+          }
+        ],
+        "url": "https://www.publicdomainpictures.net/hledej.php?hleda=husky"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://marketplace.canva.com/MADaA85seh0/1/thumbnail_large-1/canva-husky-dog-lying-in-the-MADaA85seh0.jpg"
+          }
+        ],
+        "pageTitle": "blue eyes Siberian <b>husky</b> in winter - Photos by Canva",
+        "url": "https://www.canva.com/photos/MADauZQO0G8-blue-eyes-siberian-husky-in-winter/"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://marketplace.canva.com/MADaA85seh0/1/thumbnail_large-1/canva-husky-dog-lying-in-the-MADaA85seh0.jpg"
+          }
+        ],
+        "pageTitle": "Siberian <b>Husky</b> dog black and white colour with blue eyes in winter ...",
+        "url": "https://www.canva.com/photos/MADesC_VN4Q-siberian-husky-dog-black-and-white-colour-with-blue-eyes-in-winter/"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://media.istockphoto.com/photos/husky-dog-lying-in-the-picture-id915124768?k=6&m=915124768&s=612x612&w=0&h=BtVTxp-q5zTLz27AO5A9miwipfcxBca1BvbZAt6NC9I="
+          }
+        ],
+        "pageTitle": "Best <b>Husky</b> Stock Photos, Pictures &amp; Royalty-Free Images - iStock",
+        "url": "https://www.istockphoto.com/photos/husky"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://image.shutterstock.com/mosaic_250/183371750/765600409/stock-photo-husky-dog-lying-in-the-snow-black-and-white-siberian-husky-with-blue-eyes-on-a-walk-in-winter-park-765600409.jpg"
+          }
+        ],
+        "pageTitle": "Free <b>husky</b> Stock Photos - Stockvault.net",
+        "url": "https://www.stockvault.net/free-photos/husky"
+      },
+      {
+        "pageTitle": "Complete Guide of German Shepherd <b>Husky</b> Mix You Need to Know ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://toptipsforher.com/wp-content/uploads/2019/09/Corgi-Husky-Mix-150x150.jpg"
+          }
+        ],
+        "url": "https://toptipsforher.com/german-shepherd-husky-mix/"
+      },
+      {
+        "pageTitle": "The Corgi <b>Husky</b> Mix Dog Breed Guide (All You Need To Know ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://toptipsforher.com/wp-content/uploads/2019/09/Corgi-Husky-Mix.jpg"
+          }
+        ],
+        "url": "https://toptipsforher.com/the-corgi-husky-mix-dog-breed/"
+      },
+      {
+        "pageTitle": "Wolf Dog - Full Profile, History, and Care - The Spruce Pets",
+        "partialMatchingImages": [
+          {
+            "url": "https://www.thesprucepets.com/thmb/Fxw2qST5HCKMSoxbmcF2HjB7_eo=/400x300/filters:no_upscale():max_bytes(150000):strip_icc()/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+          }
+        ],
+        "url": "https://www.thesprucepets.com/pet-wolfdogs-1237356"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://image.shutterstock.com/mosaic_250/183371750/765600409/stock-photo-husky-dog-lying-in-the-snow-black-and-white-siberian-husky-with-blue-eyes-on-a-walk-in-winter-park-765600409.jpg"
+          }
+        ],
+        "pageTitle": "Cute <b>husky</b> dog - Free Stock Photo by Merelize on Stockvault.net",
+        "url": "https://www.stockvault.net/photo/132269/cute-husky-dog"
+      },
+      {
+        "pageTitle": "Alaskan Klee Kai Dog: Full Profile, History, and Care",
+        "partialMatchingImages": [
+          {
+            "url": "https://www.thesprucepets.com/thmb/Fxw2qST5HCKMSoxbmcF2HjB7_eo=/400x300/filters:no_upscale():max_bytes(150000):strip_icc()/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+          }
+        ],
+        "url": "https://www.thesprucepets.com/alaskan-klee-kai-breed-profile-4177500"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://toptipsforher.com/wp-content/uploads/2019/08/How-Much-Do-Huskies-Cost.jpg"
+          }
+        ],
+        "pageTitle": "How Much Do <b>Huskies</b> Cost? Everything You Need To Know Before ...",
+        "url": "https://toptipsforher.com/how-much-do-huskies-cost/"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://petcarementor.com/wp-content/uploads/2019/07/Husky-21.jpg"
+          }
+        ],
+        "pageTitle": "<b>Husky</b> Pictures (Epic Photo Gallery) | Pet Care Mentor",
+        "url": "https://petcarementor.com/husky-pictures/"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://canineweekly.com/wp-content/uploads/2019/06/why-do-huskies-have-blue-eyes.jpg"
+          }
+        ],
+        "pageTitle": "Why Do <b>Huskies</b> Have Blue Eyes? The Research Is In",
+        "url": "https://canineweekly.com/why-do-huskies-have-blue-eyes/"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://thumbs.dreamstime.com/b/husky-dog-lying-snow-black-white-siberian-husky-blue-eyes-walk-winter-park-husky-dog-lying-108250695.jpg"
+          }
+        ],
+        "pageTitle": "Beautiful <b>Husky</b> Dog In Winter Forest. Siberian <b>Husky</b> With Red Hair ...",
+        "url": "https://www.dreamstime.com/beautiful-husky-dog-winter-background-siberian-husky-red-hair-husky-advertising-magazine-cover-beautiful-husky-dog-image110981438"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://media.istockphoto.com/photos/husky-dog-lying-in-the-picture-id915124768?s=170x170"
+          }
+        ],
+        "pageTitle": "Portrait Siberian <b>Husky</b> In Winter Stock Photo - Download Image ...",
+        "url": "https://www.istockphoto.com/photo/portrait-siberian-husky-in-winter-gm915124834-251858101"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "http://www.arizonapetvet.com/blog/wp-content/uploads/2019/05/shutterstock_765600409.jpg"
+          }
+        ],
+        "pageTitle": "What to Know About Purebred Vs Mutt Health, Life Expectancy, and ...",
+        "url": "http://www.arizonapetvet.com/blog/what-to-know-about-purebred-vs-mutt-health-life-expectancy-and-more/"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://thumbs.dreamstime.com/b/husky-dog-lying-snow-black-white-siberian-husky-blue-eyes-walk-winter-park-husky-dog-lying-108250695.jpg"
+          }
+        ],
+        "pageTitle": "<b>Husky</b> Lying Stock Images - Download 5,596 Royalty Free Photos",
+        "url": "https://www.dreamstime.com/photos-images/husky-lying.html"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://media.istockphoto.com/photos/husky-dog-lying-in-the-picture-id915124768?k=6&m=915124768&s=170667a&w=0&h=arWgF0cCzTY_pSzuUbyVu7PC5OLKPksjtfpIjYhdPuI="
+          },
+          {
+            "url": "https://media.istockphoto.com/photos/husky-dog-lying-in-the-picture-id915124768"
+          }
+        ],
+        "pageTitle": "<b>Husky</b> Dog Lying In The Stock Photo - Download Image Now - iStock",
+        "url": "https://www.istockphoto.com/dk/photo/husky-dog-lying-in-the-gm915124768-251858048"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://thumbs.dreamstime.com/t/husky-dog-lying-snow-black-white-siberian-husky-blue-eyes-walk-winter-park-husky-dog-lying-108250695.jpg"
+          }
+        ],
+        "pageTitle": "<b>Husky</b> dog lying in the stock photo. Image of pretty - 108250472",
+        "url": "https://www.dreamstime.com/husky-dog-lying-snow-image108250472"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://thumbs.dreamstime.com/b/husky-dog-lying-snow-black-white-siberian-husky-blue-eyes-walk-winter-park-husky-dog-lying-108250695.jpg"
+          }
+        ],
+        "pageTitle": "Grey-and-white Siberian <b>Husky</b> Is Lying In The Park. Stock Photo ...",
+        "url": "https://www.dreamstime.com/grey-white-siberian-husky-lying-park-playing-her-pack-morning-other-two-siberian-huskies-image140757978"
+      },
+      {
+        "pageTitle": "- Top Tips For Her",
+        "partialMatchingImages": [
+          {
+            "url": "https://toptipsforher.com/wp-content/uploads/2019/09/Corgi-Husky-Mix-150x150.jpg"
+          }
+        ],
+        "url": "https://toptipsforher.com/"
+      },
+      {
+        "pageTitle": "<b>Husky</b> dog lying in the snow. black and white siberian <b>husky</b> with ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://comps.canstockphoto.com/husky-dog-lying-in-the-picture_csp54842714.jpg"
+          }
+        ],
+        "url": "https://www.canstockphoto.com/husky-dog-lying-in-the-54842714.html"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://media.istockphoto.com/photos/husky-dog-lying-in-the-picture-id915124768?k=6&m=915124768&s=612x612&w=0&h=BtVTxp-q5zTLz27AO5A9miwipfcxBca1BvbZAt6NC9I="
+          }
+        ],
+        "pageTitle": "Best <b>Huskies</b> Stock Photos, Pictures &amp; Royalty-Free Images - iStock",
+        "url": "https://www.istockphoto.com/photos/huskies"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "http://www.arizonapetvet.com/blog/wp-content/uploads/2019/05/shutterstock_765600409.jpg"
+          }
+        ],
+        "pageTitle": "Page 5 of 77 - 20 Locations Around Arizona - Arizona Pet Vet",
+        "url": "http://www.arizonapetvet.com/blog/page/5/"
+      },
+      {
+        "pageTitle": "Which Hairstyle Should You Have? - Playbuzz",
+        "partialMatchingImages": [
+          {
+            "url": "https://img.playbuzz.com/image/upload/ar_1.0,c_pad,f_jpg,b_auto/cdn/318cedd6-f131-425c-b858-2d1777e84c9b/13bd73b1-bab7-42c0-8339-684194cc310c.jpg"
+          },
+          {
+            "url": "https://img.playbuzz.com/image/upload/ar_1.0,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_480,c_limit/cdn/318cedd6-f131-425c-b858-2d1777e84c9b/13bd73b1-bab7-42c0-8339-684194cc310c.jpg"
+          }
+        ],
+        "url": "https://www.playbuzz.com/ryanb/which-hairstyle-should-you-have"
+      },
+      {
+        "pageTitle": "Fluffy siberian <b>husky</b> - GoodInfo",
+        "partialMatchingImages": [
+          {
+            "url": "https://www.thesprucepets.com/thmb/yX_BHogB5rH2A3h7UOZXb21NrPQ=/4000x2250/smart/filters:no_upscale()/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+          }
+        ],
+        "url": "https://goodinfo-24.ru/bloging/index.php?zgtr=fluffy-siberian-husky"
+      },
+      {
+        "pageTitle": "Why do <b>huskies</b> talk so much - GoodInfo",
+        "partialMatchingImages": [
+          {
+            "url": "https://www.thesprucepets.com/thmb/cXTNiSPDs0E21qvj_fO8l7-QVZo=/2667x2667/smart/filters:no_upscale()/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+          }
+        ],
+        "url": "https://goodinfo-24.ru/bloging/index.php?zgtr=why-do-huskies-talk-so-much"
+      },
+      {
+        "pageTitle": "How many times can a <b>husky</b> breed",
+        "partialMatchingImages": [
+          {
+            "url": "https://www.thesprucepets.com/thmb/cXTNiSPDs0E21qvj_fO8l7-QVZo=/2667x2667/smart/filters:no_upscale()/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+          }
+        ],
+        "url": "http://fepimgas.pw/how-many-times-can-a-husky-breed.html"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "http://www.arizonapetvet.com/blog/wp-content/uploads/2019/05/shutterstock_765600409.jpg"
+          }
+        ],
+        "pageTitle": "shutterstock_765600409 - Arizona Pet Vet - AZPetVet",
+        "url": "http://www.arizonapetvet.com/blog/what-to-know-about-purebred-vs-mutt-health-life-expectancy-and-more/shutterstock_765600409/"
+      },
+      {
+        "pageTitle": "Huskey Dog Cut Outs: Siberian <b>Husky</b> Dog Chic High Quality Animal ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://www.thesprucepets.com/thmb/2K97c7-05caG1cASgKYAvlD1hV4=/4000x2667/filters:fill(auto,1)/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+          }
+        ],
+        "url": "https://www.firstbeadabc.info/huskey-dog-cut-outs/siberian-husky-dog-chic-high-quality-animal-paper-craft"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://www.sun-gazing.com/wp-content/uploads/2019/09/shutterstock_765600409.jpg"
+          }
+        ],
+        "pageTitle": "Man Placed GoPro On His Dog But When He Watches The Video ...",
+        "url": "https://www.sun-gazing.com/man-placed-gopro-dog-watches-video-sees-bone-chilling-surprise/"
+      },
+      {
+        "pageTitle": "The 12 Zodiac Signs As Popular Dog Breeds",
+        "partialMatchingImages": [
+          {
+            "url": "https://vss.astrocenter.fr/astrocenter/pictures/28631086-shutterstock-765600409-1366x768.jpg"
+          }
+        ],
+        "url": "https://my.astrofame.com/astrology/article/zodiacs-as-dogs"
+      },
+      {
+        "pageTitle": "How many times can a <b>husky</b> breed",
+        "partialMatchingImages": [
+          {
+            "url": "https://www.thesprucepets.com/thmb/cXTNiSPDs0E21qvj_fO8l7-QVZo=/2667x2667/smart/filters:no_upscale()/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+          }
+        ],
+        "url": "http://imgerton.pw/how-many-times-can-a-husky-breed.html"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://1.bp.blogspot.com/-k3Ybbi9nWBw/XSH3suT6-KI/AAAAAAAABos/E-HnEdbQYs4Ccfxulk6juLgjNJexrXXEwCLcBGAs/s1600/images.jpeg-7%2B%25286%2529.jpg"
+          }
+        ],
+        "pageTitle": "10 Best dog breeds in the world! - Crawit.com",
+        "url": "https://www.crawit.com/2019/06/best-dog-breeds-in-world.html"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://image.shutterstock.com/mosaic_250/183371750/765600409/stock-photo-husky-dog-lying-in-the-snow-black-and-white-siberian-husky-with-blue-eyes-on-a-walk-in-winter-park-765600409.jpg"
+          }
+        ],
+        "pageTitle": "Epilogue: brave but not foolhardy... - Free Stock Photo by GAIMARD ...",
+        "url": "https://www.stockvault.net/photo/255576/epilogue-brave-but-not-foolhardy"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://www.sun-gazing.com/wp-content/uploads/2019/09/shutterstock_765600409.jpg"
+          }
+        ],
+        "pageTitle": "Man Placed GoPro On His Dog But When He Watches The Video ...",
+        "url": "https://www.sun-gazing.com/page/6/?p=fxvqmfjzekesy"
+      },
+      {
+        "pageTitle": "telekinetic Stories - Wattpad",
+        "partialMatchingImages": [
+          {
+            "url": "https://a.wattpad.com/useravatar/GorgieDB.128.540925.jpg"
+          }
+        ],
+        "url": "https://www.wattpad.com/stories/telekinetic/hot"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://www.sun-gazing.com/wp-content/uploads/2019/09/shutterstock_765600409.jpg"
+          }
+        ],
+        "pageTitle": "Animals Archives - Page 2 of 88 - Sun Gazing",
+        "url": "https://www.sun-gazing.com/category/animals/page/2/"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://www.sun-gazing.com/wp-content/uploads/2019/09/shutterstock_765600409.jpg"
+          }
+        ],
+        "pageTitle": "Wolf Archives - Sun Gazing",
+        "url": "https://www.sun-gazing.com/category/wolf/"
+      },
+      {
+        "pageTitle": "telekinetic Stories - Wattpad",
+        "partialMatchingImages": [
+          {
+            "url": "https://a.wattpad.com/useravatar/GorgieDB.128.540925.jpg"
+          }
+        ],
+        "url": "https://www.wattpad.com/stories/telekinetic/new"
+      },
+      {
+        "pageTitle": "<b>Husky</b> History – Wonderful Gallery",
+        "partialMatchingImages": [
+          {
+            "url": "https://www.thesprucepets.com/thmb/2K97c7-05caG1cASgKYAvlD1hV4=/4000x2667/filters:fill(auto,1)/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+          }
+        ],
+        "url": "https://sosyalforum.org/husky-history"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://image.shutterstock.com/mosaic_250/183371750/765600409/stock-photo-husky-dog-lying-in-the-snow-black-and-white-siberian-husky-with-blue-eyes-on-a-walk-in-winter-park-765600409.jpg"
+          }
+        ],
+        "pageTitle": "Wild Doberman - Free Stock Photo by Pixabay on Stockvault.net",
+        "url": "https://www.stockvault.net/photo/206358/wild-doberman"
+      }
+    ],
+    "partialMatchingImages": [
+      {
+        "url": "https://www.thesprucepets.com/thmb/2K97c7-05caG1cASgKYAvlD1hV4=/4000x2667/filters:fill(auto,1)/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+      },
+      {
+        "url": "https://www.thesprucepets.com/thmb/yX_BHogB5rH2A3h7UOZXb21NrPQ=/4000x2250/smart/filters:no_upscale()/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+      },
+      {
+        "url": "https://www.thesprucepets.com/thmb/cXTNiSPDs0E21qvj_fO8l7-QVZo=/2667x2667/smart/filters:no_upscale()/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+      },
+      {
+        "url": "https://www.gesundheitstrends.com/wp-content/uploads/2016/12/iStock-915124768-1024x683.jpg"
+      },
+      {
+        "url": "https://fischer-reisen.at/database/header_2019060215571975738.jpg"
+      },
+      {
+        "url": "https://vss.astrocenter.fr/astrocenter/pictures/28631086-shutterstock-765600409-1366x768.jpg"
+      },
+      {
+        "url": "https://www.thesprucepets.com/thmb/U4PLoMc7D-zmXfLNOTL9ydIHato=/735x0/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+      },
+      {
+        "url": "https://fischer-reisen.at/database/tn2x_2019060215562845716.jpg"
+      },
+      {
+        "url": "https://i0.wp.com/static3.bigstockphoto.com/1/2/2/large1500/221609635.jpg?w=600"
+      },
+      {
+        "url": "https://image.shutterstock.com/image-photo/husky-dog-lying-snow-black-600w-765600409.jpg"
+      },
+      {
+        "url": "https://m3.netinfo.bg/media/images/38173/38173805/770-434-a.jpg"
+      },
+      {
+        "url": "https://mm.netinfo.bg/branding/brand.php?watermark_url=https://m.netinfo.bg/vesti/images/Vesti_lenta.png&img_url=https://m3.netinfo.bg/media/images/38173/38173805/655-343-a.jpg"
+      },
+      {
+        "url": "https://toptipsforher.com/wp-content/uploads/2019/09/Corgi-Husky-Mix.jpg"
+      },
+      {
+        "url": "https://comps.canstockphoto.ca/husky-dog-lying-in-the-picture_csp54842714.jpg"
+      },
+      {
+        "url": "https://www.thesprucepets.com/thmb/Fxw2qST5HCKMSoxbmcF2HjB7_eo=/400x300/filters:no_upscale():max_bytes(150000):strip_icc()/husky-dog-lying-in-the-915124768-34493760df9648f99961b50a16c39529.jpg"
+      },
+      {
+        "url": "https://image.shutterstock.com/image-photo/husky-dog-lying-snow-black-260nw-765600409.jpg"
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/616CKT8bsJL._AC_UL320_.jpg"
+      },
+      {
+        "url": "https://files.lehrerservice.at/image/to/seiten-jan19/1.jpg"
+      },
+      {
+        "url": "https://fischer-reisen.at/database/tn_2019060215562845716.jpg"
+      },
+      {
+        "url": "https://img.playbuzz.com/image/upload/ar_1.0,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_480,c_limit/cdn/318cedd6-f131-425c-b858-2d1777e84c9b/13bd73b1-bab7-42c0-8339-684194cc310c.jpg"
+      },
+      {
+        "url": "https://img.playbuzz.com/image/upload/ar_1.0,c_pad,f_jpg,b_auto/cdn/318cedd6-f131-425c-b858-2d1777e84c9b/13bd73b1-bab7-42c0-8339-684194cc310c.jpg"
+      },
+      {
+        "url": "https://mobile-cdn.123rf.com/300wm/westsib/westsib1801/westsib180100453/93514480-husky-chien-couch%C3%A9-dans-la-for%C3%AAt-husky-noir-et-blanc-sib%C3%A9rien-avec-des-yeux-bleus-sur-une-promenade-dans-l.jpg?ver=6"
+      },
+      {
+        "url": "https://toptipsforher.com/wp-content/uploads/2019/09/Corgi-Husky-Mix-150x150.jpg"
+      },
+      {
+        "url": "https://scontent-frx5-1.cdninstagram.com/vp/810d8cd702a1811fbc32e5381c82ad89/5E07A5EA/t51.2885-19/s150x150/67552941_1236463856535653_7685718833729896448_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com"
+      },
+      {
+        "url": "https://thumb1.shutterstock.com/thumb_large/183371750/765600409/stock-photo-husky-dog-lying-in-the-snow-black-and-white-siberian-husky-with-blue-eyes-on-a-walk-in-winter-park-765600409.jpg"
+      },
+      {
+        "url": "https://a.wattpad.com/useravatar/GorgieDB.128.540925.jpg"
+      }
+    ],
+    "visuallySimilarImages": [
+      {
+        "url": "https://www.chovatelahospodar.sk/upload/user/894/2018/01/sibirksy-husky-temperament_1516799421.jpg"
+      },
+      {
+        "url": "https://thumbnails-4.fotky-foto.cz/400/01/99/90/FotkyFoto_pes-sibirsky-husky-v-zime_19990187.jpg"
+      },
+      {
+        "url": "https://sweetpuppy.estranky.cz/img/mid/5/7300936-sibirsky-husky--28stene-fena-29-1.jpg"
+      },
+      {
+        "url": "https://previews.123rf.com/images/wolfness72/wolfness721707/wolfness72170700061/81564433-white-and-gray-adult-siberian-husky-dog-or-sibirsky-husky-with-blue-and-brown-eyes-heterochromia.jpg"
+      },
+      {
+        "url": "https://st2.depositphotos.com/1231957/6052/i/950/depositphotos_60523333-stock-photo-gray-adult-siberian-husky-dog.jpg"
+      },
+      {
+        "url": "https://pes-portal.sk/plemena/sibirsky-husky/2273-sibirsky-husky.jpg"
+      },
+      {
+        "url": "http://www.krmivo-pro-psy.com/soubory/sibirskyhusky1.jpg"
+      },
+      {
+        "url": "https://romculinka.estranky.cz/img/picture/27/sibirsky-husky-siberian-husky-1.jpg"
+      },
+      {
+        "url": "https://img.ephoto.sk/data/users//10010/photos/ada9712d6695d9acde621dbcc32ca435ec151543.jpg"
+      }
+    ],
+    "webEntities": [
+      {
+        "description": "Siberian Husky",
+        "entityId": "/m/071jj",
+        "score": 1.32132
+      },
+      {
+        "description": "Alaskan husky",
+        "entityId": "/g/11clsnxx99",
+        "score": 1.07085
+      },
+      {
+        "description": "Alaskan Klee Kai",
+        "entityId": "/m/08pmt0",
+        "score": 0.87011105
+      },
+      {
+        "description": "German Shepherd",
+        "entityId": "/m/0km5c",
+        "score": 0.7773645
+      },
+      {
+        "description": "Husky",
+        "entityId": "/m/0119sz04",
+        "score": 0.7283
+      },
+      {
+        "description": "Dog breed",
+        "entityId": "/m/0kpmf",
+        "score": 0.7139
+      },
+      {
+        "description": "Breed",
+        "entityId": "/m/01nlxs",
+        "score": 0.6957
+      },
+      {
+        "description": "Canadian Eskimo dog",
+        "entityId": "/m/057_4d",
+        "score": 0.6753615
+      },
+      {
+        "description": "Chow Chow",
+        "entityId": "/m/0c40t",
+        "score": 0.6477735
+      },
+      {
+        "description": "Puppy",
+        "entityId": "/m/0d7s3w",
+        "score": 0.56939995
+      },
+      {
+        "description": "Stock photography",
+        "entityId": "/m/036jvk",
+        "score": 0.4665
+      },
+      {
+        "description": "Working dog",
+        "entityId": "/m/02gxp7",
+        "score": 0.3353
+      },
+      {
+        "description": "Dog",
+        "entityId": "/m/0bt9lr",
+        "score": 1.08441625e-7
+      }
+    ]
+  }
+}
