@@ -1,6 +1,6 @@
 import boto3 # AWS SDK
   
-class AWS: # Class of AWS's API
+class Rekonition: # Class of AWS's API
     
     def __init__(self): # Constructor
         self.results = list() # Create a empty list
@@ -22,7 +22,7 @@ class AWS: # Class of AWS's API
     
     
 if __name__ == "__main__": # Testing 
-    aws = AWS()
+    aws = Rekonition()
     results = aws.image_recognition('hashiqi.jpg')
     print(results)
         

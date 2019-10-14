@@ -1,7 +1,7 @@
 from ibm_watson import VisualRecognitionV3 # IBM's SDK
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator # IBM's SDK
 
-class IBM: # Class of AWS's API
+class WatsonVisualRecognition: # Class of AWS's API
     
     def __init__(self): # Constructor
         self.results = list() # Create a empty list
@@ -18,6 +18,6 @@ class IBM: # Class of AWS's API
     
     
 if __name__ == "__main__": # Testing 
-    ibm = IBM()
+    ibm = WatsonVisualRecognition()
     results = ibm.image_recognition('hashiqi.jpg')
     print(results)

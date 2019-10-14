@@ -1,7 +1,7 @@
 from clarifai.rest import ClarifaiApp
 from clarifai.rest import Image as ClImage
 
-class Clarifai: # Class of AWS's API
+class Predict: # Class of AWS's API
     
     def __init__(self): # Constructor
         self.results = list() # Create a empty list
@@ -22,6 +22,6 @@ class Clarifai: # Class of AWS's API
     
     # Testing 
 if __name__ == "__main__": 
-    clarifai = Clarifai()
+    clarifai = Predict()
     results = clarifai.image_recognition('husky.jpg')
     print(results)

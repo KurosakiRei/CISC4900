@@ -5,7 +5,7 @@ import os
 from google.cloud import vision
 from google.cloud.vision import types
   
-class Google: # Class of AWS's API
+class VisionAI: # Class of AWS's API
     
     def __init__(self): # Constructor
         self.results = list() # Create a empty list
@@ -34,6 +34,6 @@ class Google: # Class of AWS's API
     
     # Testing 
 if __name__ == "__main__": 
-    google = Google()
+    google = VisionAI()
     results = google.image_recognition('husky.jpg')
     print(results)
