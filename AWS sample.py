@@ -13,4 +13,6 @@ response = client.detect_labels(
         }
     
 )
-print(response)
+results = response['Labels']
+for each in results:
+    print(each['Name'])
