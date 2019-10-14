@@ -19,7 +19,6 @@ class Google: # Class of AWS's API
         
         response = client.label_detection(image=image)
         labels = response.label_annotations
-        print('Labels:')
         for each in labels:
             if float(each.score) >= 0.8:        
                 self.results.append(each.description)
