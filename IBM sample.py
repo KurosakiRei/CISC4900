@@ -9,7 +9,8 @@ visual_recognition = VisualRecognitionV3(
 )
 
 with open('hashiqi.jpg', 'rb') as images_file:
-    classes = visual_recognition.classify(
-        images_file=images_file,
-        threshold='0.6').get_result()
-    print(json.dumps(classes, indent=2))
+    results = visual_recognition.classify(images_file=images_file,threshold='0.8').get_result()
+    results = results['images'][0]['classifiers'][0]['classes']
+    for each in results:
+        print(each['class'])
+        print(each['score'])

@@ -12,8 +12,8 @@ class AWS: # Class of AWS's API
         response = client.detect_labels(Image={'Bytes': image,}) # Calling its "Label detection" method and assign the results to "response"
         labels = response['Labels'] # Processing output format
         for each in labels:
-            if each['Confidence'] >= 80:
-                self.results.append(each['Name'])
+            if each['Confidence'] >= 80: # Filtering the results that score is lower than 0.8
+                self.results.append(each['Name']) # appending all results into the list
         return self.results
             
     def get_file_content(self, filePath): # Method for opening the image file and return an image object
