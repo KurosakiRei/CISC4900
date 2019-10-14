@@ -13,7 +13,7 @@ class IBM: # Class of AWS's API
             labels = visual_recognition.classify(images_file = images_file, threshold = '0.8').get_result() # Calling its "Label detection" method and filtering the results that score is lower than 0.8
             labels = labels['images'][0]['classifiers'][0]['classes'] # Processing output format
             for each in labels:
-                self.results.append(each['class']) # appending all results into the list
+                self.results.append(each['class']) # Appending the names into the list
             return self.results
     
     
