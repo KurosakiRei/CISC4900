@@ -4,7 +4,7 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
 authenticator = IAMAuthenticator('si21GLXqCMSdhw15pibaI9Dl98v-n_IrO1-_NNfSk95B')
 visual_recognition = VisualRecognitionV3(
-    version='2018-03-19',
+    version='2019-09-11',
     authenticator=authenticator
 )
 
