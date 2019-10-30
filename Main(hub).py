@@ -18,7 +18,6 @@ class Main:
         #Files Path
         self.ImagesPath = r'C:\Users\KurosakiRei\Dropbox\HITS'
         self.AnswerKeyPath = r'D:\github-repos\CISC4900\Answer.txt'
-        self.AnswerFile = open(AnswerKeyPath, 'r')
         
         #----------------------------------------------------------
         self.create_table()
