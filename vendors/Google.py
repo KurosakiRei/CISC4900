@@ -13,7 +13,7 @@ class VisionAI: # Class of AWS's API
     def image_recognition(self, image_path):
         image = self.get_file_content(image_path) # Create an image object
         
-        os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'D:\github-repos\CISC4900\ServiceAccountToken.json'
+        os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'.json'
         # Instantiates a client
         client = vision.ImageAnnotatorClient()
         
