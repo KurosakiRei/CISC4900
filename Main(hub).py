@@ -17,8 +17,8 @@ class Main:
         self.ibm = IBM.WatsonVisualRecognition()
         
         # Files Path
-        self.ImageFolderPath = r'D:\github-repos\CISC4900\images'
-        self.AnswerKeyPath = r'D:\github-repos\CISC4900\Answer.txt'
+        self.ImageFolderPath = r'./images'
+        self.AnswerKeyPath = r'Answer.txt'
         
         # Table Control
         self.create_table()
