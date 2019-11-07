@@ -17,8 +17,8 @@ class Main:
         self.ibm = IBM.WatsonVisualRecognition()
         
         # Files Path
-        self.ImageFolderPath = r'./images'
-        self.AnswerKeyPath = r'Answer.txt'
+        self.ImageFolderPath = r'D:\github-repos\CISC4900\images'
+        self.AnswerKeyPath = r'D:\github-repos\CISC4900\anwsers.txt'
         
         # Table Control
         self.create_table()
@@ -40,7 +40,7 @@ class Main:
     def update_table(self):
         with open(self.AnswerKeyPath, 'r') as file:
             for each in file:
-                image = each.split(' ')
+                image = each.split('\t')
                 image = [each.strip() for each in image]
                 image_path = self.ImageFolderPath + '\\' + image [0] + '.jpg'
                 
@@ -91,16 +91,19 @@ class Main:
             self.table['Amazon']['#FalsePositive'] += 1
         else:
             self.table['Amazon']['#TrueNegative'] += 1
+            
         # Clarifai     
         if ('animal' in self.clarifai.results) or ('caribou' in self.clarifai.results):
             self.table['Clarifai']['#FalsePositive'] += 1
         else:
             self.table['Clarifai']['#TrueNegative'] += 1
+            
         # Google    
         if ('animal' in self.google.results) or ('caribou' in self.google.results):
             self.table['Google']['#FalsePositive'] += 1
         else:
             self.table['Google']['#TrueNegative'] += 1
+            
         # IBM    
         if ('animal' in self.ibm.results) or ('caribou' in self.ibm.results):
             self.table['IBM']['#FalsePositive'] += 1
