@@ -48,7 +48,7 @@ class Main:
                 #self.recognition(image_path)
                 self.temp_recognition(imageID)
                 self.comparison(answer)
-                self.update_rate_and_F1(self.API_list)
+            self.update_rate_and_F1(self.API_list)
                 #print(image, self.ibm.results)
     # Comparison         
     def comparison(self, answer):
