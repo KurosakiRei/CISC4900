@@ -14,7 +14,7 @@ class VisionAI: # Class of AWS's API
         self.results.clear()
         image = self.get_file_content(image_path) # Create an image object
         
-        os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'D:\github-repos\CISC4900 - Copy\ServiceAccountToken.json'
+        os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'..\CISC4900 - Copy\ServiceAccountToken.json'
         # Instantiates a client
         client = vision.ImageAnnotatorClient()
         
@@ -51,5 +51,5 @@ class VisionAI: # Class of AWS's API
     # Testing 
 if __name__ == "__main__": 
     google = VisionAI()
-    results = google.image_recognition(r'C:\Users\KurosakiRei\Desktop\caribou.jpg')
+    results = google.image_recognition(r'.\Tested resources\caribou.jpg')
     print(results)

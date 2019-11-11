@@ -18,8 +18,8 @@ class Main:
         self.ibm = IBM.WatsonVisualRecognition()
         
         # Files Path
-        self.ImageFolderPath = r'D:\github-repos\CISC4900\images'
-        self.AnswerKeyPath = r'D:\github-repos\CISC4900\Answer.txt'
+        self.ImageFolderPath = r'.\images'
+        self.AnswerKeyPath = r'.\Answer.txt'
         
         # Table Control
         self.create_table()
@@ -155,7 +155,7 @@ class Main:
             return 0.0
 
 # Testing        
-if __name__ == '__main__': 
+if __name__ == '__main__':
     obj = Main()
     for each in obj.table:
         print(each, obj.table[each])
