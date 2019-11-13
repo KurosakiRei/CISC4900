@@ -9,6 +9,10 @@ class Main:
     def __init__(self):
         # Initialize all API's object
         # Create necessay data structure
+<<<<<<< HEAD
+=======
+        self.answers = ['animal', 'deer', 'caribou']
+>>>>>>> 7532f240e7eabf27204912d966c2ebe391d82aab
         self.API_list = ['Amazon', 'Clarifai', 'Google', 'IBM']
         self.table = dict()
         self.aws = AWS.Rekonition()
@@ -17,8 +21,13 @@ class Main:
         self.ibm = IBM.WatsonVisualRecognition()
         
         # Files Path
+<<<<<<< HEAD
         self.ImageFolderPath = r'D:\github-repos\CISC4900\images'
         self.AnswerKeyPath = r'D:\github-repos\CISC4900\anwsers.txt'
+=======
+        self.ImageFolderPath = r'.\images'
+        self.AnswerKeyPath = r'.\Answer.txt'
+>>>>>>> 7532f240e7eabf27204912d966c2ebe391d82aab
         
         # Table Control
         self.create_table()
@@ -36,6 +45,7 @@ class Main:
             self.table[each].setdefault('Recall', 0)
             self.table[each].setdefault('F1-Score', 0)
     
+<<<<<<< HEAD
     # Comparison
     def update_table(self):
         with open(self.AnswerKeyPath, 'r') as file:
@@ -114,14 +124,90 @@ class Main:
     # Invoke each class's recognition method           
     def recognition_invocation(self, image):
         # CLear previous results
+=======
+    # Start comparison
+    def update_table(self):
+        with open(self.AnswerKeyPath, 'r') as file:
+            for each in file:
+                image = each.split(' ')
+                image = [each.strip() for each in image]
+                imageID, answer = image[0], image[1]
+                image_path = self.ImageFolderPath + '\\' + imageID + '.jpg'
+                #self.recognition(image_path)
+                self.temp_recognition(imageID)
+                self.comparison(answer)
+            self.update_rate_and_F1(self.API_list)
+                #print(image, self.ibm.results)
+    # Comparison         
+    def comparison(self, answer):
+        # Compare the result for Null line 
+        if answer == 'null':
+            # Amazon
+            if len(set(self.answers).intersection(self.aws.results)):
+                self.table['Amazon']['#FalsePositive'] += 1
+            else:
+                self.table['Amazon']['#TrueNegative'] += 1
+                
+            # Clarifai     
+            if len(set(self.answers).intersection(self.clarifai.results)):
+                self.table['Clarifai']['#FalsePositive'] += 1
+            else:
+                self.table['Clarifai']['#TrueNegative'] += 1
+                
+            # Google    
+            if len(set(self.answers).intersection(self.google.results)):
+                self.table['Google']['#FalsePositive'] += 1
+            else:
+                self.table['Google']['#TrueNegative'] += 1
+                
+            # IBM    
+            if len(set(self.answers).intersection(self.ibm.results)):
+                self.table['IBM']['#FalsePositive'] += 1
+            else:
+                self.table['IBM']['#TrueNegative'] += 1
+            
+        # Compare the result for animal line               
+        else:
+            # Amazon
+            if len(set(self.answers).intersection(self.aws.results)):
+                self.table['Amazon']['#TruePositive'] += 1
+            else:
+                self.table['Amazon']['#FalseNegative'] += 1
+                
+            # Clarifai
+            if len(set(self.answers).intersection(self.clarifai.results)):
+                self.table['Clarifai']['#TruePositive'] += 1
+            else:
+                self.table['Clarifai']['#FalseNegative'] += 1
+                
+            # Google
+            if len(set(self.answers).intersection(self.google.results)):
+                self.table['Google']['#TruePositive'] += 1   
+            else:
+                self.table['Google']['#FalseNegative'] += 1
+                
+            # IBM
+            if len(set(self.answers).intersection(self.ibm.results)):
+                self.table['IBM']['#TruePositive'] += 1       
+            else:
+                self.table['IBM']['#FalseNegative'] += 1    
+            
+            
+    # Invoke each class's recognition method           
+    def recognition(self, image):
+>>>>>>> 7532f240e7eabf27204912d966c2ebe391d82aab
         self.aws.image_recognition(image)
         self.clarifai.image_recognition(image)
         self.google.image_recognition(image)
         self.ibm.image_recognition(image)
         
      # Inquiry the image data in temporary database   
+<<<<<<< HEAD
     def temp_recognition_invocation(self, imageID):
         # CLear previous results
+=======
+    def temp_recognition(self, imageID):
+>>>>>>> 7532f240e7eabf27204912d966c2ebe391d82aab
         database = redis.Redis(host = '127.0.0.1', port = '6379')
         self.aws.get_image_data(database, 'Amazon', imageID)
         self.clarifai.get_image_data(database, 'Clarifai', imageID)
@@ -135,7 +221,11 @@ class Main:
             self.table[each]['Recall'] = self.get_recall_rate(each)
             self.table[each]['F1-Score'] = self.get_F1score(each)
             
+<<<<<<< HEAD
     # TP/(TP + FN)        
+=======
+    # TP/(TP + FP)        
+>>>>>>> 7532f240e7eabf27204912d966c2ebe391d82aab
     def get_precision_rate(self, API):
         TP = self.table[API]['#TruePositive']
         FP = self.table[API]['#FalsePositive']
@@ -162,8 +252,13 @@ class Main:
         else:
             return 0.0
 
+<<<<<<< HEAD
         
 if __name__ == '__main__': #testing
+=======
+# Testing        
+if __name__ == '__main__':
+>>>>>>> 7532f240e7eabf27204912d966c2ebe391d82aab
     obj = Main()
     for each in obj.table:
         print(each, obj.table[each])

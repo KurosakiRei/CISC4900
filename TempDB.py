@@ -17,7 +17,11 @@ class Redis:
         self.clarifai = Clarifai.Predict()
         self.google = Google.VisionAI()
         self.ibm = IBM.WatsonVisualRecognition()
+<<<<<<< HEAD
         self.image_name_list = os.listdir(r"./images")
+=======
+        self.image_name_list = os.listdir(r".\images")
+>>>>>>> 7532f240e7eabf27204912d966c2ebe391d82aab
     
     def tester(self):
         print(self.image_name_list)

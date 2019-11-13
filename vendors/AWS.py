@@ -1,5 +1,9 @@
 import boto3 # AWS SDK
 import redis
+<<<<<<< HEAD
+=======
+import os
+>>>>>>> 7532f240e7eabf27204912d966c2ebe391d82aab
   
 class Rekonition: # Class of AWS's API
     
@@ -41,6 +45,11 @@ class Rekonition: # Class of AWS's API
     
 if __name__ == "__main__": # Testing 
     aws = Rekonition()
+<<<<<<< HEAD
     results = aws.image_recognition(r'C:\Users\KurosakiRei\Desktop\caribou.jpg')
+=======
+    print(os.getcwd())
+    results = aws.image_recognition(r'.\Tested resources\caribou.jpg')
+>>>>>>> 7532f240e7eabf27204912d966c2ebe391d82aab
     print(results)
         

@@ -35,5 +35,9 @@ class WatsonVisualRecognition: # Class of AWS's API
     
 if __name__ == "__main__": # Testing 
     ibm = WatsonVisualRecognition()
+<<<<<<< HEAD
     results = ibm.image_recognition(r'C:\Users\KurosakiRei\Desktop\caribou.jpg')
+=======
+    results = ibm.image_recognition(r'.\Tested resources\caribou.jpg')
+>>>>>>> 7532f240e7eabf27204912d966c2ebe391d82aab
     print(results)

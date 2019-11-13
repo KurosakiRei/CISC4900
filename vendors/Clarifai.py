@@ -38,5 +38,9 @@ class Predict: # Class of AWS's API
     # Testing 
 if __name__ == "__main__": 
     clarifai = Predict()
+<<<<<<< HEAD
     results = clarifai.image_recognition(r'C:\Users\KurosakiRei\Desktop\caribou.jpg')
+=======
+    results = clarifai.image_recognition(r'.\Tested resources\caribou.jpg')
+>>>>>>> 7532f240e7eabf27204912d966c2ebe391d82aab
     print(results)
