@@ -1,0 +1,27 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Result</title>
+</head>
+
+<body>
+    <table>
+        {% for i in image_results%}
+        <tr>
+            <th>{{i}}</th>
+        </tr>
+        {% for j in image_results[i]%}
+        <tr>
+            <td>
+                {{j, image_results[i][j]}}
+            </td>
+        </tr>
+        {% endfor %} {% endfor %}
+    </table>
+
+</body>
+
+</html>

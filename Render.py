@@ -1,10 +1,11 @@
+from jinja2 import FileSystemLoader, Environment
 
 # Render class
 class Processing:
     # Initialze data structure
     def __init__(self):
         self.images_results = dict()
-    
+        
     # Add image dictionary    
     def setImageID(self, imageID):
         self.images_results.setdefault(imageID, dict())
@@ -12,6 +13,16 @@ class Processing:
     def setImageResults(self, imageID, API, output, result):
         self.images_results[imageID][API] = [output, result]
 
+    def HTMLGenerator(self):
+        loader = FileSystemLoader('.')
+        env = Environment(loader = loader)
+        template = env.get_template("Template.html")
+        self.writeHTML(template.render(image_results = self.images_results))
+    
+    def writeHTML(self, html):
+        with open('output.html', 'w') as file:
+            file.write(html)
+        
 # Testing        
 if __name__ == "__main__":
     render = Processing()

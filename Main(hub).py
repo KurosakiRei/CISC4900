@@ -51,7 +51,7 @@ class Main:
                 self.temp_recognition(imageID)
                 self.comparison(imageID, answer)
             self.update_rate_and_F1(self.API_list)
-            
+            self.render.HTMLGenerator()
     # Comparison         
     def comparison(self, imageID, answer):
         # Compare the result for Null line 
