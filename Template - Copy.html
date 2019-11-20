@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <table cellspacing="0">
+        <td>
+            {% for i in image_results%}
+            <div class="container">
+                <h3>{{i}}</h3>
+                <img src="images/{{i.split(' -')[0]}}.JPG" alt="{{i}}" width="100px" height="100px"> {% for j in image_results[i]%}
+            </div>
+        </td>
+        <td>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#{{i.split(' -')[0]}}{{j}}">
+                      {{j}}: 
+                      {{image_results[i][j][1]}}
+                    </a>
+                    </div>
+                    <div id="{{i.split(' -')[0]}}{{j}}" class="collapse">
+                        <div class="card-body">
+                            {% for each in image_results[i][j][0]%}{{each}} {% if not loop.last %},{% endif %}{% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            <hr> {% endfor %}
+        </td>
+    </table>
+
+
+</body>
+
+</html>
