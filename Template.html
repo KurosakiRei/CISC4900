@@ -12,31 +12,62 @@
 </head>
 
 <body>
-
-    <div class="container">
+    <header>
         <h2 align="center">Results Table</h2>
-        <table class="table table-hover">
-            {% for i in image_results%}
+        <table class="table" width="50%" border="1">
+            <thead class="thead-dark">
+                <tr align="center">
+                    <th>Vendor</th>
+                    <th>TruePositive</th>
+                    <th>TrueNegative</th>
+                    <th>FalsePositive</th>
+                    <th>FalseNegative</th>
+                    <th>Precision</th>
+                    <th>Recall</th>
+                    <th>F1-Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for each in image_results%}
+                <tr align="center">
+                    <td>{{each}}</td>
+                    <td>{{image_results[each]['#TruePositive']}}</td>
+                    <td>{{image_results[each]['#TrueNegative']}}</td>
+                    <td>{{image_results[each]['#FalsePositive']}}</td>
+                    <td>{{image_results[each]['#FalseNegative']}}</td>
+                    <td>{{"%.2f" %image_results[each]['Precision']}}%</td>
+                    <td>{{"%.2f" %image_results[each]['Recall']}}%</td>
+                    <td>{{"%.2f" %image_results[each]['F1-Score']}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </header>
+    <div class="container">
+        <h2 align="center">Records</h2>
+        <table class="table table-hover" width="100%" height="950px">
+            {% for i in image_records%}
             <tbody>
                 <tr>
                     <td width="50%" align="center">
-                        <h3>{{i}}</h3>
+                        <h3>ID: {{i.split(' -')[0]}}</h3>
                         <a href="images/{{i.split(' -')[0]}}.JPG">
                             <img src="images/{{i.split(' -')[0]}}.JPG" alt="{{i}}" width="150px" height="150px"></a>
+                        <h5>{{i.split(' -')[1]}}</h5>
                     </td>
                     <td width="50%">
-                        {% for j in image_results[i]%}
+                        {% for j in image_records[i]%}
                         <div id="accordion">
                             <div class="card">
                                 <div class="card-header">
                                     <a class="card-link" data-toggle="collapse" href="#{{i.split(' -')[0]}}{{j}}">
-                          {{j}}: 
-                          {{image_results[i][j][1]}}
-                        </a>
+                                        <b>{{j}}:</b>
+                                        <span class="badge badge-pill badge-primary">{{image_records[i][j][1]}}</span>
+                                    </a>
                                 </div>
                                 <div id="{{i.split(' -')[0]}}{{j}}" class="collapse">
                                     <div class="card-body">
-                                        {% for each in image_results[i][j][0]%}{{each}}{% if not loop.last %}, {% endif %}{% endfor %}
+                                        <b>Tag(s): </b>{% for each in image_records[i][j][0]%}{{each}}{% if not loop.last %}, {% endif %}{% endfor %}
                                     </div>
                                 </div>
                             </div>

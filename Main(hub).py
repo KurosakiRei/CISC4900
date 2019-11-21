@@ -4,7 +4,7 @@ import vendors.Google as Google
 import vendors.IBM as IBM
 import Render 
 import redis
-
+import os
 
 class Main:
     # Constructor
@@ -21,13 +21,13 @@ class Main:
         self.render = Render.Processing()
         
         # Files Path
-        self.ImageFolderPath = r'.\images'
-        self.AnswerKeyPath = r'.\anwsers.txt'
+        self.ImageFolderPath = os.getcwd() + os.sep + 'images'
+        self.AnswerKeyPath = os.getcwd() + os.sep + 'anwsers.txt'
         
         # Table Control
         self.create_table()
         self.update_table()
-        
+    
     # Initialize the data structure  
     def create_table(self):
         for each in self.API_list:
@@ -52,7 +52,7 @@ class Main:
                 self.temp_recognition(imageID)
                 self.comparison(imageID, answer)
             self.update_rate_and_F1(self.API_list)
-            self.render.HTMLGenerator()
+            self.render.HTMLGenerator(self.table)
     # Comparison         
     def comparison(self, imageID, answer):
         # Compare the result for Null line 
@@ -181,10 +181,10 @@ class Main:
 # Testing        
 if __name__ == '__main__':
     obj = Main()
-    for i in obj.render.images_results:
+    for i in obj.render.images_records:
         print(i)
-        for j in obj.render.images_results[i]:
-            print(j, obj.render.images_results[i][j])
+        for j in obj.render.images_records[i]:
+            print(j, obj.render.images_records[i][j])
         print('------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
     for each in obj.table:
         print(each, obj.table[each])
