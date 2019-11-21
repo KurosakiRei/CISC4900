@@ -16,18 +16,11 @@ class Processing:
     def HTMLGenerator(self):
         loader = FileSystemLoader('.')
         env = Environment(loader = loader)
-        template = env.get_template("Template - Copy.html")
+        template = env.get_template("Template.html")
         self.writeHTML(template.render(image_results = self.images_results))
-        """ b = dict()
-        for each in self.images_results:
-            if each != 'RCNX4500 - Animal':
-                b.setdefault(each,self.images_results[each])
-            else:
-                break
-        self.writeHTML(template.render(image_results = b)) """
         
     def writeHTML(self, html):
-        with open('output.html', 'w') as file:
+        with open('Output.html', 'w') as file:
             file.write(html)
         
 # Testing        

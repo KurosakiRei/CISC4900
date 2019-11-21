@@ -1,26 +1,51 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Image Result</title>
+    <title>Results Table</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <table>
-        {% for i in image_results%}
-        <tr>
-            <th>{{i}}</th>
-        </tr>
-        {% for j in image_results[i]%}
-        <tr>
-            <td>
-                {{j, image_results[i][j]}}
-            </td>
-        </tr>
-        {% endfor %} {% endfor %}
-    </table>
+
+    <div class="container">
+        <h2 align="center">Results Table</h2>
+        <table class="table table-hover">
+            {% for i in image_results%}
+            <tbody>
+                <tr>
+                    <td width="50%" align="center">
+                        <h3>{{i}}</h3>
+                        <a href="images/{{i.split(' -')[0]}}.JPG">
+                            <img src="images/{{i.split(' -')[0]}}.JPG" alt="{{i}}" width="150px" height="150px"></a>
+                    </td>
+                    <td width="50%">
+                        {% for j in image_results[i]%}
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link" data-toggle="collapse" href="#{{i.split(' -')[0]}}{{j}}">
+                          {{j}}: 
+                          {{image_results[i][j][1]}}
+                        </a>
+                                </div>
+                                <div id="{{i.split(' -')[0]}}{{j}}" class="collapse">
+                                    <div class="card-body">
+                                        {% for each in image_results[i][j][0]%}{{each}}{% if not loop.last %}, {% endif %}{% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}{% endfor %}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 </body>
 

@@ -5,6 +5,7 @@ import vendors.IBM as IBM
 import Render 
 import redis
 
+
 class Main:
     # Constructor
     def __init__(self):
