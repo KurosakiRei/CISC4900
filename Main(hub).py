@@ -5,6 +5,7 @@ import vendors.IBM as IBM
 import Render 
 import redis
 import os
+import threading
 
 class Main:
     # Constructor
@@ -44,15 +45,21 @@ class Main:
     def update_table(self):
         with open(self.AnswerKeyPath, 'r') as file:
             for each in file:
-                image = each.split('\t')
-                image = [each.strip() for each in image]
-                imageID, answer = image[0], image[1]
-                image_path = self.ImageFolderPath + '\\' + imageID + '.jpg'
-                #self.recognition(image_path)
-                self.temp_recognition(imageID)
-                self.comparison(imageID, answer)
+                try:
+                    image = each.split('\t')
+                    image = [each.strip() for each in image]
+                    imageID, answer = image[0], image[1]
+                    image_path = self.ImageFolderPath + '\\' + imageID + '.jpg'
+                    #self.recognition(image_path)
+                    self.temp_recognition(imageID)
+                    self.comparison(imageID, answer)
+                    print(imageID + '......Done!')
+                except Exception as e:
+                    print(str(e))
+                    continue
             self.update_rate_and_F1(self.API_list)
             self.render.HTMLGenerator(self.table)
+            
     # Comparison         
     def comparison(self, imageID, answer):
         # Compare the result for Null line 
@@ -131,10 +138,25 @@ class Main:
             
     # Invoke each class's recognition method           
     def recognition(self, image):
-        self.aws.image_recognition(image)
-        self.clarifai.image_recognition(image)
-        self.google.image_recognition(image)
-        self.ibm.image_recognition(image)
+        threads = list()
+        thread = threading.Thread(target = self.aws.image_recognition, args = (image,))
+        thread.start()
+        threads.append(thread)
+        thread = threading.Thread(target = self.clarifai.image_recognition, args = (image,))
+        thread.start()
+        threads.append(thread)
+        thread = threading.Thread(target = self.google.image_recognition, args = (image,))
+        thread.start()
+        threads.append(thread)
+        thread = threading.Thread(target = self.ibm.image_recognition, args = (image,))
+        thread.start()
+        threads.append(thread)
+        for thread in threads:
+            thread.join()
+        #self.aws.image_recognition(image)
+        #self.clarifai.image_recognition(image)
+        #self.google.image_recognition(image)
+        #self.ibm.image_recognition(image)
         
     # Inquiry the image data in temporary database   
     def temp_recognition(self, imageID):
@@ -188,3 +210,5 @@ if __name__ == '__main__':
         print('------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
     for each in obj.table:
         print(each, obj.table[each])
+    print(os.getcwd())
+    os.system('.\Output.html')

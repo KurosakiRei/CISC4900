@@ -10,7 +10,6 @@ class Rekonition: # Class of AWS's API
     def image_recognition(self, image_path):
         self.results.clear()
         image = self.get_file_content(image_path) # Create an image object
-        
         client = boto3.client('rekognition') # Create a AWS client object
         response = client.detect_labels(Image={'Bytes': image,}) # Calling its "Label detection" method and assign the results to "response"
         labels = response['Labels'] # Processing output format
