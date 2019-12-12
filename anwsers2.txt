@@ -1,0 +1,10 @@
+RCNX2535	animal
+RCNX3319	null
+RCNX3477	animal
+RCNX3478	animal
+RCNX3663	null
+RCNX3844	null
+RCNX3915	null
+RCNX4092	animal
+RCNX4219	null
+RCNX4288	null

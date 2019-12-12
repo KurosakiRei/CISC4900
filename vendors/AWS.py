@@ -8,16 +8,16 @@ class Rekonition: # Class of AWS's API
         self.results = list() # Create a empty list
         
     def image_recognition(self, image_path):
-        self.results.clear()
+        templist = list()
         image = self.get_file_content(image_path) # Create an image object
         client = boto3.client('rekognition') # Create a AWS client object
         response = client.detect_labels(Image={'Bytes': image,}) # Calling its "Label detection" method and assign the results to "response"
         labels = response['Labels'] # Processing output format
         for each in labels:
             if each['Confidence'] >= 80: # Filtering the results that score is lower than 0.8
-                self.results.append(each['Name']) # Appending the names into the list
+                templist.append(each['Name']) # Appending the names into the list
+        self.results = templist
         self.format_output()
-        return self.results
     
     # Get data from the database
     def get_image_data(self, database, API, imageID):
@@ -32,16 +32,16 @@ class Rekonition: # Class of AWS's API
             for j in i.split(' '):
                 templist.append(j)
         self.results = templist
-            
-    def get_file_content(self, filePath): # Method for opening the image file and return an image object
+    # Method for opening the image file and return an image object        
+    def get_file_content(self, filePath): 
         with open(filePath, 'rb') as fp:
             return fp.read()
     
     
-    
-if __name__ == "__main__": # Testing 
+# Testing    
+if __name__ == "__main__":  
     aws = Rekonition()
     print(os.getcwd())
-    results = aws.image_recognition(r'.\Tested resources\caribou.jpg')
+    results = aws.image_recognition(os.getcwd() + os.sep + 'images\RCNX4500.jpg')
     print(results)
         

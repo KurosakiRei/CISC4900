@@ -49,9 +49,9 @@ class Main:
                     image = each.split('\t')
                     image = [each.strip() for each in image]
                     imageID, answer = image[0], image[1]
-                    image_path = self.ImageFolderPath + '\\' + imageID + '.jpg'
-                    #self.recognition(image_path)
-                    self.temp_recognition(imageID)
+                    image_path = self.ImageFolderPath + os.sep + imageID + '.jpg'
+                    self.recognition(image_path)
+                    #self.temp_recognition(imageID)
                     self.comparison(imageID, answer)
                     print(imageID + '......Done!')
                 except Exception as e:
@@ -145,7 +145,7 @@ class Main:
         thread = threading.Thread(target = self.clarifai.image_recognition, args = (image,))
         thread.start()
         threads.append(thread)
-        thread = threading.Thread(target = self.google.image_recognition, args = (image,))
+        thread = threading.Thread(target = self.google.image_recognition_object_localization, args = (image,))
         thread.start()
         threads.append(thread)
         thread = threading.Thread(target = self.ibm.image_recognition, args = (image,))
@@ -153,10 +153,10 @@ class Main:
         threads.append(thread)
         for thread in threads:
             thread.join()
-        #self.aws.image_recognition(image)
-        #self.clarifai.image_recognition(image)
-        #self.google.image_recognition(image)
-        #self.ibm.image_recognition(image)
+        """ self.aws.image_recognition(image)
+        self.clarifai.image_recognition(image)
+        self.google.image_recognition(image)
+        self.ibm.image_recognition(image) """
         
     # Inquiry the image data in temporary database   
     def temp_recognition(self, imageID):
@@ -203,12 +203,12 @@ class Main:
 # Testing        
 if __name__ == '__main__':
     obj = Main()
-    for i in obj.render.images_records:
+    """ for i in obj.render.images_records:
         print(i)
         for j in obj.render.images_records[i]:
             print(j, obj.render.images_records[i][j])
         print('------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
     for each in obj.table:
         print(each, obj.table[each])
-    print(os.getcwd())
-    os.system('.\Output.html')
+    print(os.getcwd()) """
+    os.system(os.getcwd() + os.sep + 'Output.html')
