@@ -12,7 +12,7 @@ clarifai==2.6.2
 colorama==0.4.1
 configparser==3.8.1
 constantly==15.1.0
-cryptography==3.2
+cryptography==44.0.1
 cssselect==1.0.3
 cycler==0.10.0
 decorator==4.4.0
