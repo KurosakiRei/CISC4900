@@ -1,4 +1,4 @@
-﻿asn1crypto==0.24.0
+asn1crypto==0.24.0
 attrs==19.1.0
 Automat==0.7.0
 backcall==0.1.0
@@ -97,5 +97,5 @@ webencodings==0.5.1
 websocket-client==0.48.0
 widgetsnbextension==3.5.1
 wordcloud==1.5.0
-zipp==0.6.0
+zipp==3.19.1
 zope.interface==4.6.0
