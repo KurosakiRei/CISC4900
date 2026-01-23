@@ -1,4 +1,4 @@
-﻿asn1crypto==0.24.0
+asn1crypto==0.24.0
 attrs==19.1.0
 Automat==0.7.0
 backcall==0.1.0
@@ -30,7 +30,7 @@ grpcio==1.24.3
 hyperlink==19.0.0
 ibm-cloud-sdk-core==1.0.0
 ibm-watson==4.0.1
-idna==2.8
+idna==3.7
 importlib-metadata==0.23
 incremental==17.5.0
 ipykernel==5.1.3
