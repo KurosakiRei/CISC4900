@@ -1,4 +1,4 @@
-﻿asn1crypto==0.24.0
+asn1crypto==0.24.0
 attrs==19.1.0
 Automat==0.7.0
 backcall==0.1.0
@@ -85,7 +85,7 @@ service-identity==18.1.0
 setuptools==78.1.1
 six==1.12.0
 soupsieve==1.9.2
-sqlparse==0.3.0
+sqlparse==0.5.0
 terminado==0.8.2
 testpath==0.4.2
 traitlets==4.3.3
