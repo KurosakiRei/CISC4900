@@ -1,4 +1,4 @@
-﻿asn1crypto==0.24.0
+asn1crypto==0.24.0
 attrs==19.1.0
 Automat==0.7.0
 backcall==0.1.0
@@ -20,7 +20,7 @@ defusedxml==0.6.0
 docopt==0.6.2
 docutils==0.15.2
 entrypoints==0.3
-future==0.18.1
+future==1.0.0
 google-api-core==1.14.3
 google-auth==1.6.3
 google-cloud-vision==0.39.0
