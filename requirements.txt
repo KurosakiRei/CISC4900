@@ -1,4 +1,4 @@
-﻿asn1crypto==0.24.0
+asn1crypto==0.24.0
 attrs==19.1.0
 Automat==0.7.0
 backcall==0.1.0
@@ -63,7 +63,7 @@ pyasn1-modules==0.2.5
 pycparser==2.19
 pydispatch==1.1.0
 PyDispatcher==2.0.5
-Pygments==2.7.4
+Pygments==2.15.0
 PyHamcrest==1.9.0
 PyJWT==1.7.1
 pyOpenSSL==19.0.0
