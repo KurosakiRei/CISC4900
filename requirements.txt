@@ -66,7 +66,7 @@ PyDispatcher==2.0.5
 Pygments==2.15.0
 PyHamcrest==1.9.0
 PyJWT==2.4.0
-pyOpenSSL==19.0.0
+pyOpenSSL==26.0.0
 pyparsing==2.4.2
 pypiwin32==223
 pyrsistent==0.15.4
